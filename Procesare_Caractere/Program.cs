@@ -8,9 +8,13 @@ namespace Procesare_Caractere
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
+            TextFile textFile = new TextFile(@"..\..\TextFile1.txt");
+            Console.WriteLine($"\tNumar Linii: {textFile.nrLinii}" +
+                $"\n\tNumar Caractere: {textFile.NumarCaractere()}" +
+                $"\n\tNumar Vocale: {textFile.NumarVocale()}" +
+                $"\n\tNumar Consoane: {textFile.NumarConsoane()}");
         }
     }
 }

@@ -1,0 +1,8 @@
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\bin\Debug\Procesare_Caractere.exe.config
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\bin\Debug\Procesare_Caractere.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\bin\Debug\Procesare_Caractere.pdb
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\obj\Debug\Procesare_Caractere.csproj.AssemblyReference.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\obj\Debug\Procesare_Caractere.csproj.SuggestedBindingRedirects.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\obj\Debug\Procesare_Caractere.csproj.CoreCompileInputs.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\obj\Debug\Procesare_Caractere.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Procesare_Caractere\obj\Debug\Procesare_Caractere.pdb
