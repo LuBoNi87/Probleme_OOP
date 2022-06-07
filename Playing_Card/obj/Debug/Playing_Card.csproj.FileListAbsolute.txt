@@ -1,0 +1,8 @@
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\bin\Debug\Playing_Card.exe.config
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\bin\Debug\Playing_Card.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\bin\Debug\Playing_Card.pdb
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\obj\Debug\Playing_Card.csproj.AssemblyReference.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\obj\Debug\Playing_Card.csproj.SuggestedBindingRedirects.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\obj\Debug\Playing_Card.csproj.CoreCompileInputs.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\obj\Debug\Playing_Card.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Playing_Card\obj\Debug\Playing_Card.pdb
