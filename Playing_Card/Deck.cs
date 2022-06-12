@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Playing_Card
 {
-    internal class Deck : Card
+    internal class Deck
     {
         const int NrCards = 52;
         Card[] deck;
@@ -19,9 +19,9 @@ namespace Playing_Card
         public void CreateDeck()
         {
             int i = 0;
-                foreach (Suit s in Enum.GetValues(typeof(Suit)))
+                foreach (Card.Suit s in Enum.GetValues(typeof(Card.Suit)))
                 {
-                foreach (Value v in Enum.GetValues(typeof(Value)))
+                foreach (Card.Value v in Enum.GetValues(typeof(Card.Value)))
                     deck[i++] = new Card { suit = s, value = v };
                 }
         }
@@ -29,23 +29,19 @@ namespace Playing_Card
         {
             Random random = new Random();
             Card temp;
-            for (int j = 0; j < 1000; j++)
+            for (int i=0; i<NrCards-1; i++)
             {
-                for (int i = 0; i < NrCards; i++)
-                {
-                    int swapCard = random.Next(52);
-                    temp = deck[i];
-                    deck[i] = deck[swapCard];
-                    deck[swapCard] = temp;
-                }
+                int j = random.Next(i, NrCards);
+                temp = deck[j];
+                deck[j] = deck[i];
+                deck[i] = temp;
             }
         }
-        public void ShowDeck()
+        public void GetCard()
         {
-            for (int i = 0; i < NrCards; i++)
-            {
-                Console.WriteLine($"{deck[i].suit.ToString()} {deck[i].value.ToString()}");
-            }
+            Random random = new Random();
+            int i = random.Next(0, NrCards);
+            Console.WriteLine($"{deck[i].value.ToString()} of {deck[i].suit.ToString()}");
         }
     }
 }

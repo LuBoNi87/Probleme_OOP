@@ -1,0 +1,8 @@
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\bin\Debug\Article_List.exe.config
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\bin\Debug\Article_List.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\bin\Debug\Article_List.pdb
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\obj\Debug\Article_List.csproj.AssemblyReference.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\obj\Debug\Article_List.csproj.SuggestedBindingRedirects.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\obj\Debug\Article_List.csproj.CoreCompileInputs.cache
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\obj\Debug\Article_List.exe
+D:\College 2021-2022\OOP\Probleme_OOP\Article_List\obj\Debug\Article_List.pdb

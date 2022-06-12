@@ -1,0 +1,8 @@
+D:\College 2021-2022\OOP\Probleme_OOP\LR\bin\Debug\LR.exe.config
+D:\College 2021-2022\OOP\Probleme_OOP\LR\bin\Debug\LR.exe
+D:\College 2021-2022\OOP\Probleme_OOP\LR\bin\Debug\LR.pdb
+D:\College 2021-2022\OOP\Probleme_OOP\LR\obj\Debug\LR.csproj.AssemblyReference.cache
+D:\College 2021-2022\OOP\Probleme_OOP\LR\obj\Debug\LR.csproj.SuggestedBindingRedirects.cache
+D:\College 2021-2022\OOP\Probleme_OOP\LR\obj\Debug\LR.csproj.CoreCompileInputs.cache
+D:\College 2021-2022\OOP\Probleme_OOP\LR\obj\Debug\LR.exe
+D:\College 2021-2022\OOP\Probleme_OOP\LR\obj\Debug\LR.pdb
