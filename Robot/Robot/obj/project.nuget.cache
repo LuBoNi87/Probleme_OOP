@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZShJ7afjIRogjZhTGXLbd8i9FlynCvN1eakFGccw6f33VDqpyw4oUufXa84Ydhw4WCfGZ33is51uiPuu6OZNw==",
+  "dgSpecHash": "t3nW1PNGnM7g7COupiDjKAaBO3khJS8s9bkAqVsQ8RiGRaVBsJy3CGE9vTFXHe6d446WCzQ4AdqNH9OPAYuBhA==",
   "success": true,
-  "projectFilePath": "D:\\College 2021-2022\\OOP\\Probleme_OOP\\Robot\\LuBoNi87\\Robot\\Robot\\Robot\\Robot.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\College 2021-2022\\OOP\\Probleme_OOP\\Robot\\Robot\\Robot.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
