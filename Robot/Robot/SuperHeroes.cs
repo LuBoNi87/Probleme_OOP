@@ -14,7 +14,7 @@ namespace Robot
         }
         public SuperHeroes ()
         {
-            Health = 200;
+            Health = random.Next(7, 9) * 50;
         }
     }
 }

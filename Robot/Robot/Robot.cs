@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 enum Intensity
 {
-    Low = 10,
-    Medium = 20,
-    High = 30,
-    Kill = 40,
+    Low = 5,
+    Medium = 25,
+    High = 50,
+    Kill = 100,
 }
 namespace Robot
 {
@@ -20,12 +20,11 @@ namespace Robot
         public Intensity EyeLasserIntensity;
         public Target CurrentTarget;
         public Target[] Targets;
-        public int i;
+        public int target;
         public bool Active;
         public void Initialize()
         {
-            i = 0;
-            HealthRobot = 100;
+            target = 0;
             Active = true;
         }
 
@@ -40,8 +39,8 @@ namespace Robot
         public void AcquireNextTarget()
         {
             Console.WriteLine($"The {CurrentTarget} died");
-            if ( i < Targets.Length-1 )
-            CurrentTarget = Targets[++i];
+            if ( target < Targets.Length-1 )
+            CurrentTarget = Targets[++target];
             else
             {
                 Active = false;

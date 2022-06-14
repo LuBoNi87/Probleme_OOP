@@ -14,7 +14,7 @@ namespace Robot
         }
         public Animals()
         {
-           Health = 50;
+           Health = random.Next(2,4)*50;
         }
     }
 }

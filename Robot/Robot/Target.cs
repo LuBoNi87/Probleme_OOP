@@ -10,6 +10,7 @@ namespace Robot
     {
         public int Health;
         public Planets Planet;
+        public Random random = new Random();
         public bool Alive ()
         {
             if ( Health > 0)
