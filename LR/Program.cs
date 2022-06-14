@@ -25,11 +25,9 @@ namespace LR
                 left[i] = Math.Max(int.Parse(line[i]), left[i - 1]);
                 if (left[i] <= right[i])
                 {
-                    //Console.Write($"{i+1} ");
                     c++;
                 }
             }
-            //Console.WriteLine();
             Console.WriteLine(c);
         }
     }

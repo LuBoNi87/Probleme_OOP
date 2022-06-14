@@ -8,7 +8,6 @@ namespace Article_List
 {
     internal class Article
     {
-        int number_of_articles=0;
         public string titlu;
         public string[] autori;
         public string continut;
@@ -19,14 +18,13 @@ namespace Article_List
         public string[] tags; 
         public Article(string t, string[] a, string c, DateTime data1, DateTime data2, int l, int dl, string[] tags)
         {
-            this.titlu = t.Trim();
+            this.titlu = t;
             this.autori = a;
             this.continut = c;
             this.data_publicare = data1;
             this.data_update = data2;
             this.likes = l;
             this.dislikes = dl;
-            number_of_articles++;
             this.tags = tags;
         }
         public static void Afisare(Article[] articles)
@@ -45,7 +43,7 @@ namespace Article_List
                 if(i>0) s.Append($", {autori[i]}");
                 else s.Append($"{autori[i]} ");
             }
-            s.Append($"; {continut}; {data_publicare.ToString("MM/dd/yyyy")}; {data_update.ToString("MM/dd/yyyy")}; {likes}; {dislikes}; ");
+            s.Append($"; {continut}; {data_publicare:MM/dd/yyyy}; {data_update:MM/dd/yyyy}; {likes}; {dislikes}; ");
             for (int i = 0; i < tags.Length; i++)
             {
                 if(i>0)
